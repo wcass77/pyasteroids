@@ -31,7 +31,7 @@ def main() -> None:
         # Draw screen
         screen.fill(color=(0, 0, 0))
         player.draw(screen)
-        dt = clock.tick(60)
+        dt = clock.tick(60) / 1000
         pygame.display.flip()
 
 
